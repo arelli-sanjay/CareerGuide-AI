@@ -1,0 +1,69 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.modal {
+  background: #1e1e1e;
+  padding: 25px;
+  border-radius: 12px;
+  width: 350px;
+  color: white;
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.circle {
+  width: 80px;
+  height: 80px;
+  background: gray;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+}
+
+.field {
+  margin-bottom: 15px;
+}
+
+.field input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  margin-top: 5px;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.cancel {
+  background: transparent;
+  border: 1px solid gray;
+  padding: 6px 12px;
+  color: white;
+}
+
+.save {
+  background: white;
+  color: black;
+  padding: 6px 12px;
+  border: none;
+}

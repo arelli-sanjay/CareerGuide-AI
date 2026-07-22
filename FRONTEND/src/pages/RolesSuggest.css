@@ -1,0 +1,55 @@
+.rolesuggest{
+    background-color:#232323;
+    flex:1;
+    margin:8px 8px 8px 0px;
+    border-radius:10px;
+    padding-left: 20px;
+    height:695px;
+}
+
+.upload p{
+  font-size:10px;
+  opacity:0.5;
+  padding-bottom:5px;
+}
+
+.upload{
+  line-height:0;
+}
+
+.topbar{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.profile{
+  display:flex;
+  justify-content:end;
+  font-size:30px;
+  padding-right:30px;
+  
+}
+
+.profile:hover{
+  cursor:pointer;
+}
+
+
+.roles{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    overflow-y:auto;
+    height:calc(100vh - 100px);
+}
+
+.role{
+    background-color:rgba(128, 128, 128,0.07);
+    height:auto;
+    width:80%;
+    padding:30px;
+    margin-top:20px;
+    border-radius:20px;
+}

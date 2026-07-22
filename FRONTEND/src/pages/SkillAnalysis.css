@@ -1,0 +1,167 @@
+.skillanalysis{
+    background-color:#232323;
+    flex:1;
+    margin:8px 8px 8px 0px;
+    border-radius:10px;
+    padding-left: 20px;
+    height:695px;
+}
+
+.upload p{
+  font-size:10px;
+  opacity:0.5;
+  padding-bottom:5px;
+}
+
+.upload{
+  line-height:0;
+}
+
+.topbar{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.profile{
+  display:flex;
+  justify-content:end;
+  font-size:30px;
+  padding-right:30px;
+  
+}
+
+.profile:hover{
+  cursor:pointer;
+}
+
+.maincontainer{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    margin-top:30px
+}
+
+.search{
+    height:35rem;
+    width:35rem;
+    background-color: rgba(128, 128, 128,0.07);
+    border-radius:10px;
+    margin-right:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.skills{
+    height:35rem;
+    width:20rem;
+    background-color:black;
+    border-radius:10px;
+    background-color: rgba(128, 128, 128,0.07);
+}
+
+.resume{
+    height:300px;
+    width:400px;
+    border:2px solid grey;
+    border-radius:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    line-height:0.5em;
+}
+.resume p{
+    color:grey;
+    font-size:small;
+}
+
+.input{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.input input{
+    width:400px;
+    height:40px;
+    border-radius:20px;
+    text-align:center;
+    font-size:medium;
+    margin:0px 0px 14px;
+}
+
+.input button{
+    width:300px;
+    height:50px;
+    border-radius:10px;
+    background-color:#4caf93;
+    font-size:medium;
+    font-weight:bold;
+}
+
+.skills ul{
+    list-style: none;
+    overflow-y:auto;
+
+}
+
+.skills{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    height:250px;
+    margin-bottom:10px;
+}
+
+.skills ul li{
+    height:30px;
+    background-color:rgba(0,0,0,0.3);
+    border-radius:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:5px 30px 5px 0px ;
+
+}
+
+img:hover{
+    cursor:pointer;
+}
+
+button:hover{
+    cursor:pointer;
+    opacity:0.8;
+}
+
+.extracted{
+    display:flex;
+    flex-direction:column;
+}
+
+.skills-container {
+  max-height: 220px;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.skill-pill {
+  background: #1e1e1e;
+  color: white;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.skill-pill.missing {
+  background: #3a1f1f;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}

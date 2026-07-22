@@ -1,0 +1,51 @@
+.projectroute{
+    background-color:#232323;
+    flex:1;
+    margin:8px 8px 8px 0px;
+    border-radius:10px;
+    padding-left: 10px;
+    height: 695px;
+}
+
+.dayplans{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    overflow-y:auto;
+    height:calc(100vh - 150px);
+}
+
+.plan{
+    background-color:rgba(128, 128, 128,0.07);
+    height:auto;
+    width:80%;
+    padding:30px;
+    margin-top:20px;
+    border-radius:20px;
+}
+
+.querybox{
+    height:900px;
+    width:95%;
+    padding:20px;
+    border-radius:15px;
+    background-color:rgba(0,0,0,0.3);
+    color:white;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+}
+
+.querybox h3{
+    color:white;
+}
+
+.querybox input{
+    margin:10px;
+    width:95%;
+}
+.querybox button{
+    width:50%;
+}
+

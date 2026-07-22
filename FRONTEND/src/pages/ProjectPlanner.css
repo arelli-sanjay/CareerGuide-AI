@@ -1,0 +1,83 @@
+/* topbar */
+
+.projectplanner{
+    background-color:#232323;
+    flex:1;
+    margin:8px 8px 8px 0px;
+    border-radius:10px;
+    padding-left: 20px;
+    height:695px;
+}
+.topbar{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.profile{
+  display:flex;
+  justify-content:end;
+  font-size:30px;
+  padding-right:30px;
+  
+}
+
+.profile:hover{
+  cursor:pointer;
+}
+
+/* projects */
+
+.projects{
+    display:flex;
+    flex-direction:column;
+  align-items: center;
+  overflow-y:auto;
+  height:calc(100vh - 150px);
+}
+
+.name{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon{
+  display:flex;
+  justify-content:end;
+  font-size:30px;
+  padding-right:30px;
+  
+}
+
+.project{
+    height:auto;
+    width:80%;
+    background-color:rgba(128, 128, 128,0.07);
+    margin:30px 0px;
+    padding:30px;
+    border-radius:15px;
+}
+
+#confirm-btn{
+    width:300px;
+    height:50px;
+    border-radius:10px;
+    background-color:#4caf93;
+    font-size:medium;
+    font-weight:bold;
+    margin-top: 5px;
+}
+
+.button{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+
+ .modal h3{
+  color:white;
+}

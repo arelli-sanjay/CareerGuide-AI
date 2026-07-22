@@ -1,0 +1,57 @@
+.sidebar{
+    background-color:#232323;
+    height:695px;
+    width:350px;
+    min-width:300px;
+    margin:8px;
+    border-radius:10px;
+}
+
+.logo{
+    display:flex;
+    padding:8px 0px;
+}
+
+.logo img{
+    padding:0px 4px 4px 0px;
+    height:4rem;
+    width: 4rem;
+    margin:8px;
+}
+
+.journey{
+    display:flex;
+    align-items:center;
+    margin:5px 20px;
+    border-radius:10px;
+    padding:0px 10px;
+}
+
+.journey  p{
+    padding-left:10px;
+}
+
+.journey:hover{
+    background-color:#4caf93;
+}
+
+a{
+    text-decoration:none;
+    color:rgba(255,255,255,0.9);
+}
+
+.logout{
+    bottom:40px;
+    position:fixed;
+    width:350px;
+}
+
+.logout button{
+    width:150px;
+    margin-left:10px;
+    background-color:#232323 ;
+}
+
+.logout button i{
+    padding-right:10px;
+}
