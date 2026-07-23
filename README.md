@@ -177,6 +177,12 @@ npm install
 npm run dev
 ```
 
+## Note
+
+- This application is **optimized for desktop web browsers**.
+- For the best experience, use **Google Chrome, Microsoft Edge, or Mozilla Firefox** on a desktop or laptop.
+- Mobile and tablet layouts are **not fully optimized** in the current version.
+
 ## Live Demo
 
 ### Frontend (Netlify)
