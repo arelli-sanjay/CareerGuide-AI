@@ -15,7 +15,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173", // Local development
-      "https://careerguide-ai.netlify.app" // Netlify frontend
+      "https://careerguide-ai-for-students.netlify.app/" // Netlify frontend
     ],
     credentials: true,
   })
