@@ -179,7 +179,11 @@ npm run dev
 
 ## Live Demo
 
-**comming soon**
+### Frontend (Netlify)
+https://careerguide-ai-for-students.netlify.app/roles
+
+### Backend API (Render)
+https://careerguide-ai-kgkn.onrender.com/
 
 ## What I Learned
 
