@@ -5,7 +5,7 @@ import {
   markRoadmapComplete,
   updateProfile,
   resetUserProgress 
-} from "../controllers/usercontroller.js";
+} from "../controllers/userController.js";
 
 const router = express.Router();
 
